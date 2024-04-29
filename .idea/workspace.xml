@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c972d7f8-1014-439c-a9a0-c645ea69ccd8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/isaac.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/isaac.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KeyHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Jeu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MovingObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +85,7 @@
       <updated>1714417819975</updated>
       <workItem from="1714417821426" duration="381000" />
       <workItem from="1714418451563" duration="1313000" />
-      <workItem from="1714419915055" duration="3573000" />
+      <workItem from="1714419915055" duration="6104000" />
     </task>
     <servers />
   </component>
