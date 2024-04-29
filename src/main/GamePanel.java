@@ -1,3 +1,7 @@
+package main;
+
+import entity.Player;
+
 import java.awt.*;
 
 public class GamePanel extends javax.swing.JPanel implements Runnable {
@@ -5,7 +9,7 @@ public class GamePanel extends javax.swing.JPanel implements Runnable {
     final int originalTilesSize = 16;
     final int scale = 3;
 
-    final int tilesSize = originalTilesSize * scale;
+    public final int tilesSize = originalTilesSize * scale;
     final int maxScreenCol = 16;
     final int maxScreenRow = 12;
     final int screenWidth = tilesSize * maxScreenCol;
@@ -16,10 +20,7 @@ public class GamePanel extends javax.swing.JPanel implements Runnable {
     KeyHandler keyH = new KeyHandler();
     Thread gameThread;
 
-    // position du joueur
-    int playerX = 100;
-    int playerY = 100;
-    int playerSpeed = 4;
+    Player player = new Player(this, keyH);
 
     public GamePanel() {
 
@@ -71,18 +72,7 @@ public class GamePanel extends javax.swing.JPanel implements Runnable {
 
     public void update() {
 
-        if(keyH.upPressed) {
-            playerY -= playerSpeed;
-        }
-        else if(keyH.downPressed) {
-            playerY += playerSpeed;
-        }
-        else if(keyH.leftPressed) {
-            playerX -= playerSpeed;
-        }
-        else if(keyH.rightPressed) {
-            playerX += playerSpeed;
-        }
+        player.update();
     }
 
     public void paintComponent(Graphics g) { // Grapgics c'est le crayon en gros
@@ -90,9 +80,7 @@ public class GamePanel extends javax.swing.JPanel implements Runnable {
         super.paintComponent(g);
 
         Graphics2D g2d = (Graphics2D)g;
-
-        g2d.setColor(Color.white);
-        g2d.fillRect(playerX, playerY, tilesSize, tilesSize);
+        player.draw(g2d);
         g2d.dispose();
     }
 }

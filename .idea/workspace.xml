@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c972d7f8-1014-439c-a9a0-c645ea69ccd8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/KeyHandler.java" afterDir="false" />
+    <list default="true" id="c972d7f8-1014-439c-a9a0-c645ea69ccd8" name="Changes" comment="Fin du tuto 2. Game clock, gestion touche (le rectangle bouge !!!)">
+      <change afterPath="$PROJECT_DIR$/res/player/boy_down_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_down_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_left_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_left_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_right_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_right_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_up_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_up_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/isaac.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/isaac.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KeyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/xelll/Documents/Projet/Jeux/isaac",
+    "last_opened_file_path": "/home/xelll/Documents/Projet/Jeux/isaac/res/player",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,9 +64,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/player" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="isaac" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,11 +101,25 @@
       <updated>1714417819975</updated>
       <workItem from="1714417821426" duration="381000" />
       <workItem from="1714418451563" duration="1313000" />
-      <workItem from="1714419915055" duration="6104000" />
+      <workItem from="1714419915055" duration="7798000" />
+      <workItem from="1714428482482" duration="1162000" />
     </task>
+    <task id="LOCAL-00001" summary="Fin du tuto 2. Game clock, gestion touche (le rectangle bouge !!!)">
+      <option name="closed" value="true" />
+      <created>1714426380265</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714426380265</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fin du tuto 2. Game clock, gestion touche (le rectangle bouge !!!)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin du tuto 2. Game clock, gestion touche (le rectangle bouge !!!)" />
   </component>
 </project>
