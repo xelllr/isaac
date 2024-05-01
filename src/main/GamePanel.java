@@ -7,6 +7,7 @@ import java.awt.*;
 
 public class GamePanel extends javax.swing.JPanel implements Runnable {
 
+    // SCREEN SETTINGS
     final int originalTileSize = 16;
     final int scale = 3;
 
@@ -16,13 +17,19 @@ public class GamePanel extends javax.swing.JPanel implements Runnable {
     public final int screenWidth = tileSize * maxScreenCol;
     public final int screenHeight = tileSize * maxScreenRow;
 
+    // WORLD SETTINGS
+    public final int maxWorldCol = 50;
+    public final int maxWorldRow = 50;
+    public final int worldWidth = tileSize + maxWorldCol;
+    public final int worldHeight = tileSize + maxWorldRow;
+
     double FPS = 60;
 
     TileManager tileM = new TileManager(this);
     KeyHandler keyH = new KeyHandler();
     Thread gameThread;
 
-    Player player = new Player(this, keyH);
+    public Player player = new Player(this, keyH);
 
     public GamePanel() {
 
@@ -31,6 +38,7 @@ public class GamePanel extends javax.swing.JPanel implements Runnable {
         this.setDoubleBuffered(true);
         this.addKeyListener(keyH);
         this.setFocusable(true);
+
     }
 
     public void startGameThread() {
@@ -67,10 +75,9 @@ public class GamePanel extends javax.swing.JPanel implements Runnable {
             } catch (InterruptedException e){
                 e.printStackTrace();
             }
-
-            }
-
         }
+
+    }
 
     public void update() {
 
@@ -87,6 +94,7 @@ public class GamePanel extends javax.swing.JPanel implements Runnable {
         player.draw(g2);
 
         g2.dispose();
+
     }
 }
 

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c972d7f8-1014-439c-a9a0-c645ea69ccd8" name="Changes" comment="On a maintenant un piti personnage (c bo)">
+    <list default="true" id="c972d7f8-1014-439c-a9a0-c645ea69ccd8" name="Changes" comment="Tuiles dessinées. Première map.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "xelllr"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/xelllr/isaac.git",
+    "accountId": "1cc0852e-0df1-447a-8a32-73a12bef14d7"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -39,14 +53,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/xelll/Documents/Projet/Jeux/isaac/res/player",
+    "last_opened_file_path": "D:/Projet/isaac",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/xelll/IdeaProjects/isaac/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
@@ -55,6 +69,11 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/res/player" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projet\Isaac\res\maps" />
+      <recent name="D:\Projet\Isaac\res\tiles" />
+      <recent name="D:\Projet\Isaac\src\tile" />
     </key>
   </component>
   <component name="RunManager">
@@ -74,8 +93,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -91,6 +110,7 @@
       <workItem from="1714418451563" duration="1313000" />
       <workItem from="1714419915055" duration="7798000" />
       <workItem from="1714428482482" duration="1995000" />
+      <workItem from="1714592351864" duration="6100000" />
     </task>
     <task id="LOCAL-00001" summary="Fin du tuto 2. Game clock, gestion touche (le rectangle bouge !!!)">
       <option name="closed" value="true" />
@@ -108,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714429724546</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tuiles dessinées. Première map.">
+      <option name="closed" value="true" />
+      <created>1714597139063</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714597139063</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +145,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fin du tuto 2. Game clock, gestion touche (le rectangle bouge !!!)" />
     <MESSAGE value="On a maintenant un piti personnage (c bo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="On a maintenant un piti personnage (c bo)" />
+    <MESSAGE value="Animation personnage" />
+    <MESSAGE value="Tuiles dessinées. Première map." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tuiles dessinées. Première map." />
   </component>
 </project>
