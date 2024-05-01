@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c972d7f8-1014-439c-a9a0-c645ea69ccd8" name="Changes" comment="Tuiles dessinées. Première map.">
+    <list default="true" id="c972d7f8-1014-439c-a9a0-c645ea69ccd8" name="Changes" comment="World map et caméra.">
+      <change afterPath="$PROJECT_DIR$/src/main/CollisionChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
@@ -110,7 +111,7 @@
       <workItem from="1714418451563" duration="1313000" />
       <workItem from="1714419915055" duration="7798000" />
       <workItem from="1714428482482" duration="1995000" />
-      <workItem from="1714592351864" duration="6100000" />
+      <workItem from="1714592351864" duration="10508000" />
     </task>
     <task id="LOCAL-00001" summary="Fin du tuto 2. Game clock, gestion touche (le rectangle bouge !!!)">
       <option name="closed" value="true" />
@@ -136,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714597139063</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="World map et caméra.">
+      <option name="closed" value="true" />
+      <created>1714598884284</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714598884284</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +156,7 @@
     <MESSAGE value="On a maintenant un piti personnage (c bo)" />
     <MESSAGE value="Animation personnage" />
     <MESSAGE value="Tuiles dessinées. Première map." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tuiles dessinées. Première map." />
+    <MESSAGE value="World map et caméra." />
+    <option name="LAST_COMMIT_MESSAGE" value="World map et caméra." />
   </component>
 </project>
